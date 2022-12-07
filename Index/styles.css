@@ -1,0 +1,66 @@
+body{
+    background-image: url(https://wallpaperaccess.com/full/983279.jpg);
+    font-family: sans-serif;
+    margin: 1.5em;
+}
+
+.logos-c{
+    width: 250px;
+    height: 175px;
+    background-color: #1c1cff5d;
+    box-shadow: 4px 4px 4px rgb(0, 2, 95);
+    text-align: center;
+    border: 2px solid blue;
+    color: aliceblue;
+}
+
+.colores-c{
+    width: 250px;
+    height: 125px;
+    background-color: rgba(78, 78, 255, 0.4);
+    box-shadow: 4px 4px 4px rgb(0, 2, 95);
+    text-align: center;
+    border: 2px solid blue;
+    color: aliceblue;
+}
+
+.bordes-c{
+    width: 250px;
+    height: 100px;
+    background-color: rgba(78, 78, 255, 0.4);
+    box-shadow: 4px 4px 4px rgb(0, 2, 95);
+    text-align: center;
+    border: 2px solid blue;
+    color: aliceblue;
+}
+
+li{
+    text-align: left;
+    margin-left: 1em;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(87, 182, 166);
+}
+
+a:hover{
+    color: antiquewhite;
+    transition: 2s;
+}
+
+hr{
+    margin-left: 0%;
+    margin-right: 86.2%;
+}
+
+h1{
+    font-size: 3em;
+    color: white;
+    display: inline-block;
+}
+
+.nombre{
+    display: inline;
+    float: right;
+}

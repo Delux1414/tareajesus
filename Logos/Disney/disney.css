@@ -4,24 +4,21 @@
 }
 
 body{
-    background: rgb(0,17,102);
-    background: radial-gradient(circle, rgba(0,17,102,1) 0%, rgba(70,107,252,1) 100%);
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/9e858942213779.57c5dcebabe06.jpg);
 }
 
-h1{
+.fondo{
+    background-color: rgba(0, 0, 0, 0.384);
+    width: 500px;
+    height: 125px;
     text-align: center;
     color: rgb(255, 255, 255);
-    font-size: 6em;
+    font-size: 8em;
     font-family: 'Waltograph Disney';
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     position: absolute;
-}
-
-img{
-    width: 25%;
-    height: 25%;
-    display: flex;
-    padding-top: 2rem;
+    justify-content: center;
+    align-items: center;
 }

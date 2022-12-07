@@ -1,10 +1,10 @@
 body{
-    background-image: url(https://pbs.twimg.com/media/FXkB2DbaQAANLvn?format=jpg&name=large);
+    background-image: url(https://wallpaperboat.com/wp-content/uploads/2020/09/21/55264/moon-and-stars-08.jpg);
 }
 .container{
-    background-color: rgba(238, 238, 238, .6);
+    background-color: rgba(238, 238, 238, 0.7);
     width: 1000px;
-    height: 600px;
+    height: 450px;
     position: relative;
     display: flex;
     top: 50%;
