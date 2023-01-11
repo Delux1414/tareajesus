@@ -1,38 +1,80 @@
 body{
-    background-image: url(https://wallpaperaccess.com/full/983279.jpg);
+    background-image: url(https://static.videezy.com/system/resources/thumbnails/000/022/280/original/thumbnail-white.jpg);
     font-family: sans-serif;
-    margin: 1.5em;
+    padding: 0;
+    margin: 0;
+}
+
+.presentacion{
+    border-bottom: 5px solid rgba(84, 92, 97, 0.3);
+    border-left: 5px solid rgba(37, 41, 44, 0.3);
+    border-right: 5px solid rgba(37, 41, 44, 0.3);
+    padding-left: 2em;
+    padding-right: 2em;
+    display: flex;
+    justify-content: space-between;
+    background: rgb(36,36,36);
+    background: linear-gradient(90deg, rgba(36,36,36,1) 0%, rgba(61,61,61,1) 35%, rgba(79,79,79,1) 100%);
 }
 
 .logos-c{
-    width: 250px;
-    height: 175px;
-    background-color: #1c1cff5d;
+    width: 75%;
+    height: 200px;
     box-shadow: 4px 4px 4px rgb(0, 2, 95);
     text-align: center;
     border: 2px solid blue;
     color: aliceblue;
+    margin: 0 auto;
+    background-image: url(https://th.bing.com/th/id/OIP.pQezf6RRyZ6uWpFIsp5UywHaE7?pid=ImgDet&rs=1);
+    background-position: center center;
+    border-radius: 20px;
 }
 
 .colores-c{
-    width: 250px;
-    height: 125px;
-    background-color: rgba(78, 78, 255, 0.4);
+    background-image: url(https://www.freecodecamp.org/news/content/images/2021/09/divTag.png);
+    background-position: 100px 300px;
+    width: 75%;
+    height: 200px;
     box-shadow: 4px 4px 4px rgb(0, 2, 95);
     text-align: center;
     border: 2px solid blue;
     color: aliceblue;
+    margin: 0 auto;
+    border-radius: 20px;
 }
 
 .bordes-c{
-    width: 250px;
-    height: 100px;
-    background-color: rgba(78, 78, 255, 0.4);
+    width: 75%;
+    height: 200px;
+    background-image: url(https://th.bing.com/th/id/R.ecb4e68b0d60321df235395c148b7124?rik=sH3Fn1NWulLkTg&riu=http%3a%2f%2fi1.hdslb.com%2fbfs%2farchive%2f95d7a5c91e31339a6d06f7821c79f236e32219f4.png&ehk=mb2CIZ%2b0yaLqsmQ5vdb2IcrMjZUIBBQPtenke04fImw%3d&risl=&pid=ImgRaw&r=0);
+    background-size: cover;
+    background-position: 1px 800px;
     box-shadow: 4px 4px 4px rgb(0, 2, 95);
     text-align: center;
     border: 2px solid blue;
     color: aliceblue;
+    margin: 0 auto;
+    border-radius: 20px;
 }
+
+.logos-c:hover{
+    border:2px solid rgb(86, 15, 133);
+    box-shadow: 4px 4px 4px rgb(63, 0, 136);
+    transition: 2s;
+}
+
+.colores-c:hover{
+    border:2px solid rgb(86, 15, 133);
+    box-shadow: 4px 4px 4px rgb(63, 0, 136);
+    transition: 2s;
+}
+
+.bordes-c:hover{
+    border:2px solid rgb(86, 15, 133);
+    box-shadow: 4px 4px 4px rgb(63, 0, 136);
+    transition: 2s;
+}
+
 
 li{
     text-align: left;
@@ -41,17 +83,18 @@ li{
 
 a{
     text-decoration: none;
-    color: rgb(87, 182, 166);
+    color: white;
+    font-size: 1.5em;
 }
 
 a:hover{
-    color: antiquewhite;
+    color: rgb(48, 255, 245);
     transition: 2s;
 }
 
 hr{
-    margin-left: 0%;
-    margin-right: 86.2%;
+    width: 75%;
+    color: black;
 }
 
 h1{
@@ -60,7 +103,6 @@ h1{
     display: inline-block;
 }
 
-.nombre{
-    display: inline;
-    float: right;
+h2.font-2, h2.font-3{
+    padding-bottom: .8em;
 }
