@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.table1{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.tabla2{
+    display: flex;
+    justify-content: center;
+}
+
+th, .marcadata{
+    border: 1px solid black;
+    padding: 2em;
+}
+
+.title{
+    padding-top: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+.fechas{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+.presentacion{
+    background-color: #eee;
+}
+
+.principal{
+    text-align: center;
+    padding: 0.5em;
+}

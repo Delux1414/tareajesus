@@ -1,5 +1,6 @@
 body{
     background-image: url(https://static.videezy.com/system/resources/thumbnails/000/022/280/original/thumbnail-white.jpg);
+    background-size: cover;
     font-family: sans-serif;
     padding: 0;
     margin: 0;
@@ -70,6 +71,26 @@ body{
     border-radius: 20px;
 }
 
+.tablas{
+    background-image: url(https://i.blogs.es/9de470/excel/1366_521.jpg);
+    background-position: 10px 500px;
+    width: 75%;
+    height: 200px;
+    box-shadow: 4px 4px 4px rgb(0, 2, 95);
+    text-align: center;
+    border: 2px solid blue;
+    color: aliceblue;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.tablas:hover{
+    border:2px solid rgb(86, 15, 133);
+    box-shadow: 4px 4px 4px rgb(63, 0, 136);
+    transition: 2s;
+}
+
+
 .catalogo:hover{
     border:2px solid rgb(86, 15, 133);
     box-shadow: 4px 4px 4px rgb(63, 0, 136);
@@ -122,6 +143,6 @@ h1{
     display: inline-block;
 }
 
-h2.font-2, h2.font-3{
+h2.font{
     padding-bottom: .8em;
 }
