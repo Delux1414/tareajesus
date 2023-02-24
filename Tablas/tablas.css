@@ -7,10 +7,13 @@
 
 .table1{
     display: flex;
+    align-items: center;
     justify-content: center;
-    width: 50%;
-    border: 1px solid black;
+    width: 75%;
+    height: 800px;
+    border: 1px solid rgb(0, 238, 255);
     border-collapse: collapse;
+    background-color: #333;
 }
 
 .tabla2{
@@ -19,8 +22,15 @@
 }
 
 th, .marcadata{
-    border: 1px solid black;
-    padding: 2em;
+    border: 3px dotted rgb(147, 248, 255);
+    padding: 0.5em;
+    color: white;
+}
+
+span{
+    float: right;
+    color: rgb(0, 238, 255);
+    margin: 5px;
 }
 
 .title{
@@ -33,6 +43,7 @@ th, .marcadata{
     display: flex;
     justify-content: center;
     gap: 2em;
+    padding: 1em;
 }
 
 .presentacion{
@@ -42,4 +53,24 @@ th, .marcadata{
 .principal{
     text-align: center;
     padding: 0.5em;
+}
+
+.colores2{
+    display: flex;
+    padding: 10px;
+}
+
+.colores{
+    display: flex;
+    padding: 10px;
+}
+
+.rojo1, .azul1{
+    width: 20px;
+    height: 20px;
+}
+
+img{
+    width: 50px;
+    height: 50px;
 }
