@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+	padding: 20px;
+	background-color: #f2f2f2;
+	border-bottom: 1px solid #ddd;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: 'Comfortaa', cursive;
+}
+
+.header-container {
+	display: inline-block;
+}
+
+.header-title {
+	float: right;
+}
+
+.body-title{
+    text-align: center;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    font-family: 'Comfortaa', cursive;
+}
+
+form{
+    display: block;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 1.3em;
+    width: 500px;
+    height: auto;
+    padding: 20px;
+}
+
+input{
+    display: flex;
+    margin-bottom: .7em;
+    width: 200px;
+    height: 25px;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
+input[type="submit"]{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    width: 500px;
+    height: 40px;
+    background-color: dodgerblue;
+    color: white;
+    text-align: center;
+    font-size: 1.3em;
+    border-radius: 10px;
+    border: none;
+}
+
+.btn-env{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label{
+    display: block;
+    font-family: sans-serif;
+    color: rgba(48, 48, 48, 0.9);
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+select{
+    display: block;
+}
+
+.gender{
+    display: inline-block;
+    width: 18px;
+}
+
+.text-gender, .text-option{
+    font-family: sans-serif;
+    color: rgba(48, 48, 48, 0.9);
+    font-size: .8em;
+    font-weight: bold;
+}
+
+.chek{
+    width: 20px;
+    display: inline-block;
+    margin-left: 1em;
+}
+
+legend{
+    font-family: sans-serif;
+    background-color: rgb(71, 156, 195);
+    padding: 1em;
+    font-family: sans-serif;
+}
+
+.legend-text{
+    font-size: 1.3em;
+    padding: 10px;
+    font-weight: 600;
+    color: white;
+}
+
+.form-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+legend:hover{
+    background-color: aquamarine;
+    transition: .5s;
+}
