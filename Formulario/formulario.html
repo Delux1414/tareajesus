@@ -5,62 +5,84 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="formulario.css">
-    <title>Reserva de vuelos</title>
+    <title>Formulario de registro</title>
 </head>
 <body>
     <header>
         <div class="header-container">
             <div class="header-branding">
-                <h1 class="header-name">David Ricardo Peña</h1>
+                <h1 class="header-name">David Peña</h1>
                 <h2 class="header-subtitle">Analisis y desarrollo de software</h2>
             </div>
         </div>
         <div class="header-title">
             <h1 class="header-main-title">Formularios</h1>
-            <h2 class="header-sub-title">Inicio de sesion</h2>
+            <h2 class="header-sub-title">Register form</h2>
         </div>
     </header>
-
-    <h1 class="body-title">Formulario para reserva.</h1>
-    
-    <div class="form-container">
-    <form>
-        <legend><span class="legend-text">Por favor ingresa tus datos.</span></legend>
-        <label>Ingrese el numero de cedula.</label>
-        <input type="text" name="numeroDocumento" placeholder="Numero de documento.">
-        <label>Ingrese el primer nombre.</label>
-        <input type="text" name="primerNombre">
-        <label>Ingrese el segundo nombre.</label>
-        <input type="text" name="segundoNombre">
-        <label>Ingrese el primer apellido.</label>
-        <input type="text" name="primerApellido">
-        <label>Ingrese el segundo apellido.</label>
-        <input type="text" name="segundoApellido">
-        <label>¿Desea realizar una consulta a la empresa?</label>
-        <textarea name="" id="" cols="30" rows="10"></textarea>
-        <label class="gender-label">Ingrese el genero.</label>
-        <input type="radio" name="genero" value="Masculino" class="gender"><span class="text-gender"> Masculino</span><br>
-        <input type="radio" name="genero" value="Masculino" class="gender"><span class="text-gender"> Femenino</span><br>
-        <input type="radio" name="genero" value="Masculino" class="gender"><span class="text-gender"> Indeterminado</span>
-        <label>Seleccione las aereolineas.</label>
-        <input type="checkbox" name="aereolineas" class="chek"><span class="text-option"> Avianca</span>
-        <input type="checkbox" name="aereolineas" class="chek"><span class="text-option"> Latam</span>
-        <input type="checkbox" name="aereolineas" class="chek"><span class="text-option"> Viva air</span>
-        <input type="checkbox" name="aereolineas" class="chek"><span class="text-option"> Ultra air</span>
-        <label>Seleccione el destino:</label>
-        <select name="Destino">
-            <option value="sanAndres">San Andres.</option>
-            <option value="cartagena">Cartagena.</option>
-            <option value="santaMsarta">Santa marta.</option>
-            <option value="medellin">Medellin.</option>
-            <option value="manizales">Manizales.</option>
-            <option value="bogota">Bogota.</option>
-            <option value="cali">Cali.</option>
-        </select>
-        <div class="btn-env">
-        <input type="submit" value="Enviar">
+    <div class="wrapper">
+        <div class="title">
+            Formulario de registro
         </div>
-    </form>
+        <div class="form">
+            <div class="input-container">
+                <label>Primer nombre:</label>
+                <input type="text" class="input">
+            </div>
+            <div class="input-container">
+                <label>Primer apellido:</label>
+                <input type="text" class="input">
+            </div>
+            <div class="input-container">
+                <label>Contraseña:</label>
+                <input type="password" class="input">
+            </div>
+            <div class="input-container">
+                <label>Confirmar contraseña:</label>
+                <input type="password" class="input">
+            </div>
+            <div class="input-container">
+                <label>Genero:</label>
+                <div class="select">
+                    <select>
+                        <option value="">Selecciona</option>
+                        <option value="male">Masculino</option>
+                        <option value="female">Femenino</option>
+                        <option value="indeterminado">Indeterminado</option>
+                    </select>
+                </div>
+            </div>
+            <div class="input-container">
+                <label>Correo electronico:</label>
+                <input type="text" class="input">
+            </div>
+            <div class="input-container">
+                <label>Numero de telefono:</label>
+                <input type="text" class="input">
+            </div>
+            <div class="input-container">
+                <label>Direccion:</label>
+                <textarea class="textarea" cols="30" rows="10"></textarea>
+            </div>
+            <div class="input-container">
+                <label>Numero de identificacion:</label>
+                <input type="text" class="input">
+            </div>
+            <div class="input-container">
+                <label>Fecha de expedicion:</label>
+                <input type="text" class="input">
+            </div>
+            <div class="input-container terms">
+                <label class="check">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <p>Acepto los terminos y condiciones.</p>
+            </div>
+            <div class="input-container">
+                <input type="submit" value="Register" class="btn">
+            </div>
+        </div>
     </div>
 </body>
 </html>
