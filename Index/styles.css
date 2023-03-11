@@ -97,6 +97,20 @@ body{
     border-radius: 20px;
 }
 
+.Barra-de-navegacion{
+    background-image: url(https://spin.atomicobject.com/wp-content/uploads/20180604233502/gradient_nav_bar.png);
+    background-position: 0px 725px;
+    background-size: cover;
+    width: 75%;
+    height: 200px;
+    box-shadow: 4px 4px 4px rgb(0, 2, 95);
+    text-align: center;
+    border: 2px solid blue;
+    color: black;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
 .formulario:hover{
     border:2px solid rgb(86, 15, 133);
     box-shadow: 4px 4px 4px rgb(63, 0, 136);
@@ -143,7 +157,7 @@ li{
 a{
     text-decoration: none;
     color: white;
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 
 a:hover{
