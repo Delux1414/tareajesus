@@ -124,6 +124,20 @@ body{
     border-radius: 20px;
 }
 
+.media-query{
+    width: 75%;
+    height: 200px;
+    background-image: url(https://www.elegantthemes.com/blog/wp-content/uploads/2016/11/mobile-first-responsive.jpg);
+    background-size: cover;
+    background-position: -100px 770px;
+    box-shadow: 4px 4px 4px rgb(0, 2, 95);
+    text-align: center;
+    border: 2px solid blue;
+    color: rgb(0, 0, 0);
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
 .formulario:hover{
     border:2px solid rgb(86, 15, 133);
     box-shadow: 4px 4px 4px rgb(63, 0, 136);
